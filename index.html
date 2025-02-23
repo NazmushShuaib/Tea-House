@@ -18,15 +18,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
+
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
+                    colors: { 
                         clifford: '#da373d',
                     }
                 }
             }
         }
+
     </script>
 
 </head>
@@ -51,7 +53,9 @@
 
                 <button
                     class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold ">Explore
-                    More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
+                    More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
+
+                </button>
             </div>
 
             <!-- image content -->
@@ -60,15 +64,17 @@
                 <!-- image -->
 
                 <div>
-                    <img src="images/banner.png" alt="">
+                    <img src="../Tea Hous/images/banner.png" alt="">
                 </div>
 
                 <!-- card -->
-                <div 
-                class="flex items-center bg-white px-2 py-2 shadow-xl md:px-10 lg:py-4 rounded-lg absolute top-28 md:top-80 md:left-32 lg:left-16" 
-                >
+                <div
+                    class="flex items-center bg-white px-2 py-2 shadow-xl md:px-10 lg:py-4 rounded-lg absolute top-28 md:top-80 md:left-32 lg:left-16">
                     <!-- icon -->
-                    <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+                    <div>
+                        <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+                    </div>
+
                     <!-- Text -->
                     <div>
                         <h2 class="lg:text-2xl font-bold">5.00</h2>
@@ -79,6 +85,62 @@
             </div>
 
         </header>
+
+        <!-- Featured product section -->
+        <section class="mt-36">
+            <!-- Title -->
+            <div class="text-center">
+
+                <h1 class="text-2xl md:text-4xl mb-2">Our Featured Products</h1>
+
+                <p class="max-w-4xl mx-auto text-gray-500">
+
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                    words which don't look even slightly believable.
+
+                </p>
+
+            </div>
+
+            <!-- Grid card -->
+
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-20">
+
+                <div class="mx-auto text-center">
+
+                    <img class="mx-auto pb-4" src="./images/tea-1.png" alt="">
+                    <h3 class="pb-3">Milk Tea</h3>
+                    <p>Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+                
+                <div class="mx-auto text-center">
+
+                    <img class="mx-auto pb-4" src="./images/tea-2.png" alt="">
+                    <h3 class="pb-3">Black Tea</h3>
+                    <p>Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+
+                <div class="mx-auto text-center">
+
+                    <img class="mx-auto pb-4" src="./images/tea-3.png" alt="">
+                    <h3 class="pb-3">Lemon Tea</h3>
+                    <p>Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+
+                <div class="mx-auto text-center">
+
+                    <img class="mx-auto pb-4" src="./images/tea-4.png" alt="">
+                    <h3 class="pb-3">Green Tea</h3>
+                    <p>Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+            </div>
+            
+        </section>
 
     </main>
 
